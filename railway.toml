@@ -1,2 +1,2 @@
 [deploy]
-cronSchedule = "*/5 * * * *"
+cronSchedule = "0 */12 * * *"
