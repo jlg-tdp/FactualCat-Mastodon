@@ -11,8 +11,8 @@ mastodon = Mastodon(
 
 
 def random_fact():
-    fact = requests.get("https://catfact.ninja/fact?max_length=280").json()
-    return fact["fact"]
+    fact = requests.get("https://meowfacts.herokuapp.com/").json()
+    print(fact['data'][0])
 
 
 def get_cat_pic():
