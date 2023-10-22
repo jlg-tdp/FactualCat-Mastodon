@@ -12,6 +12,17 @@ This project serves as a starting point for those interested in building bots on
 4. [Create a developer application](https://botsin.space/settings/applications) for your bot, ensuring it has scopes for `read`, `write`, and `follow`.
 5. If needed, update your Redirect URI. However, the default `urn:ietf:wg:oauth:2.0:oob` should suffice for most testing purposes.
 
+## Timing
+
+The frequency at which the bot shares posts is governed by the schedule set in a [cron job](https://docs.railway.app/reference/cron-jobs). This schedule is defined within the `railway.toml` file. As of the current configuration, the bot is programmed to make a post every 6 hours.
+
+```toml
+[deploy]
+cronSchedule = "0 */6 * * *"
+```
+
+The cronSchedule value "0 */6 * * *" translates to a post being made at the start of every 6-hour interval throughout the day.
+
 ## Using this Code Sample
 
 1. Install the necessary packages using: `pip install -r requirements.txt`
