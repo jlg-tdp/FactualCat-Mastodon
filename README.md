@@ -1,5 +1,7 @@
 # FactualCat on Mastodon
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/2C8OdB?referralCode=qZMlb1)
+
 [@FactualCat](https://botsin.space/@FactualCat) is a bot on Mastodon that shares cat facts and pictures. It posts facts about cats sourced from the [Meow Facts API](https://github.com/wh-iterabb-it/meowfacts/tree/main) and pictures from [The Cat API](https://thecatapi.com/).
 
 This project serves as a starting point for those interested in building bots on Mastodon. The bot is written in Python and utilizes [Mastodon.py](https://github.com/halcy/Mastodon.py).
