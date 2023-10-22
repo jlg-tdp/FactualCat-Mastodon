@@ -12,7 +12,7 @@ mastodon = Mastodon(
 
 def random_fact():
     fact = requests.get("https://meowfacts.herokuapp.com/").json()
-    return(fact['data'][0])
+    return fact['data'][0]
 
 
 def get_cat_pic():
