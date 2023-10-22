@@ -23,7 +23,7 @@ The frequency at which the bot shares posts is governed by the schedule set in a
 cronSchedule = "0 */6 * * *"
 ```
 
-The cronSchedule value "0 */6 * * *" translates to a post being made at the start of every 6-hour interval throughout the day.
+The cronSchedule value `0 */6 * * *` translates to a post being made at the start of every 6-hour interval throughout the day.
 
 ## Using this Code Sample
 
