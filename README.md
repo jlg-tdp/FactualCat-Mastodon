@@ -10,7 +10,7 @@ This project serves as a starting point for those interested in building bots on
 2. Configure your bot account in the account profile section, just as you would a regular account. This includes adding a bio, profile picture, heading, and any other desired metadata.
 3. Ensure you check the box labeled "This is a bot account".
 4. [Create a developer application](https://botsin.space/settings/applications) for your bot, ensuring it has scopes for `read`, `write`, and `follow`.
-5. If needed, update your Redirect URI. However, the default `urn:ietf:wg:oauth:2.0:oob` should suffice for most purposes.
+5. If needed, update your Redirect URI. However, the default `urn:ietf:wg:oauth:2.0:oob` should suffice for most testing purposes.
 
 ## Using this Code Sample
 
